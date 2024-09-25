@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+
+}
+/* 
+.container {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+} */
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.crypto-table {
+  margin-top: 20px;
+  background: red(255, 255, 255);
+  padding: 20px;
+  border-radius: 60px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:hover {
+  background-color:rgb(232, 132, 132);
+}
+
+td img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+td.change-positive {
+  color: green;
+}
+
+td.change-negative {
+  color: red;
+}
